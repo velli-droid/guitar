@@ -1,0 +1,129 @@
+@media (max-width: 995px) {
+    .intro video {
+        display: none;
+    }
+    .intro-video-overlay {
+        display: none;
+    }
+    .burger-menu {
+        display: block;
+        margin-left: auto;
+        cursor: pointer;
+    }
+    .jump-menu {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        background-color: rgba(0, 0, 0, 0.9);
+        padding-top: 60px;
+        transform: translateX(100%);
+        transition: .3s linear;
+    }
+    .jump-menu.jump-menu-active {
+        transform: translateX(0);
+    }
+    .menu-list {
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    .footer-nav .menu-list {
+        align-items: flex-start;
+    }
+    .menu-list-item {
+        margin-bottom: 20px;
+    }
+    .about-me-content {
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+    .about-me-pic {
+        width: 100%;
+    }
+    .about-me-text {
+        margin-left: 0;
+    }
+}
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .page-header {
+        padding: 28px 0;
+    }
+    .intro-title h1 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .section-title h2 {
+        font-size: 26px;
+        line-height: 32px;
+    }
+    .page-popup-wrapper {
+        width: 96%;
+        max-width: 600px;
+        padding: 30px 20px;
+    }
+    .form-group {
+        width: 100%;
+    }
+    .programs-swiper {
+        width: 83%;
+    }
+    .programs-swiper-slide-content {
+        width: 100%;
+        max-width: 264px;
+    }
+
+    .about-list-item-title {
+        font-size: 24px;
+    }
+    .video-list-item-frame iframe {
+        width: 300px;
+        height: auto;
+    }
+    .intro-btn .page-btn-link,
+    .section-btn .page-btn-link {
+        padding: 14px 10px;
+        font-size: 12px;
+    }
+    .about-list-item {
+        width: 52%;
+    }
+    .about-me-content {
+        width: 100%;
+    }
+    .about-me-frame {
+        left: -90px;
+    }
+}
+
+@media (max-width: 425px) {
+    .programs-swiper-slide-content {
+        max-width: 235px;
+    }
+    .programs-swiper-slide-btn-link {
+        width: 235px;
+    }
+    .programs-swiper-next-btn {
+        right: -20px;
+    }
+    .programs-swiper-prev-btn {
+        left: -20px;
+    }
+    .reviews-swiper {
+        width: 83%;
+    }
+    .reviews-swiper-slide-content {
+        max-width: 230px;
+    }
+    .reviews-swiper-next-btn {
+        right: -20px;
+    }
+    .reviews-swiper-prev-btn {
+        left: -20px;
+    }
+}
